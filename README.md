@@ -16,17 +16,22 @@
 * **Database**: `db.json` (serves as the database for users, professionals, bookings, etc.)
 
 ---
+## ✨ Features
 
-### 📦 Features
-
-✅ User authentication
-✅ Role-based navigation (Admin, Customer, Professional)
-✅ Search & filter services
-✅ Professional profile view
-✅ Booking system
-✅ Admin dashboard to manage users & bookings
+- 👤 User Login and Registration  
+- 🛠️ Professional Login and Registration  
+- 🧑‍💼 Admin Login with Dashboard  
+- 🔍 Browse available professionals by category  
+- 📅 Book appointments with professionals  
+- ✅ Professionals can accept or reject bookings  
+- 📊 Admin can view and manage all users, professionals, and bookings  
+- 🔁 Real-time status updates of bookings  
+- 🏠 Clean and user-friendly interface  
+- 💡 Alerts and validations for smoother experience  
+- 🧪 Mock backend using `json-server`
 
 ---
+
 
 ### 🛠️ Tech Stack
 
