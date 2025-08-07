@@ -12,8 +12,8 @@
 
     try {
       const [professionals, bookings] = await Promise.all([
-        fetch("http://localhost:10000/professionals").then(res => res.json()),
-        fetch("http://localhost:10000/bookings").then(res => res.json())
+        fetch("https://findhelper.onrender.com/professionals").then(res => res.json()),
+        fetch("https://findhelper.onrender.com/bookings").then(res => res.json())
       ]);
 
       const professional = professionals.find(p => p.email === user.email);
@@ -78,7 +78,7 @@
     button.textContent = "Updating...";
 
     try {
-      const res = await fetch(`http://localhost:10000/bookings/${bookingId}`, {
+      const res = await fetch(`https://findhelper.onrender.com/bookings/${bookingId}`, {
         method: "PATCH",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ status: "completed" })
