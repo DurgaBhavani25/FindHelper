@@ -1,26 +1,100 @@
-###### **Project Overview**
 
-	This project is a Find Helper Booking Platform that connects users with skilled professionals such as plumbers, electricians, cleaners, painters, carpenters, and AC technicians across various cities in India.
+## 📌 FindHelper
 
-**The platform allows:**
+**FindHelper** is a web-based application designed to connect users with skilled professionals (like plumbers, electricians, cleaners, etc.) based on location, availability, and service category. The platform allows both customers and service professionals to register, interact, and manage bookings in a user-friendly interface.
 
-1. Users to search for professionals based on location and service category.
-2. Professionals to register themselves, list their services, charges, experience, and location.
-3. Admins to approve or reject professional profiles before they are shown to the public.
+### 🚀 Live Demo
 
-It aims to streamline the process of finding and hiring trusted service providers with transparent pricing, verified credentials, and user-friendly browsing.
+🌐 **Live URL**: [https://findhelper.onrender.com](https://findhelper.onrender.com)
 
-###### **Features Implemented**
+---
 
-* User registration and login for customers and professionals
-* Professional profile creation and storage
-* Role-based access (customer, professional, admin)
-* Service browsing by profession and location
-* Professional bio, charge, and experience display
-* Approval system for professional accounts
-* 
-**###### Pending Features**
+### 📁 Project Structure
 
-* Chat functionality between users and professionals
-* Payment integration
-* Notification system (email/SMS)
+* **Frontend**: React-based user interface.
+* **Backend**: JSON Server (Mock API).
+* **Database**: `db.json` (serves as the database for users, professionals, bookings, etc.)
+
+---
+
+### 📦 Features
+
+✅ User authentication
+✅ Role-based navigation (Admin, Customer, Professional)
+✅ Search & filter services
+✅ Professional profile view
+✅ Booking system
+✅ Admin dashboard to manage users & bookings
+
+---
+
+### 🛠️ Tech Stack
+
+* **Frontend**: HTML,CSS,JS
+* **Backend**: JSON Server
+* **Deployment**: Render
+
+---
+
+### ⚙️ Setup Instructions
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/DurgaBhavani25/FindHelper.git
+   cd FindHelper
+   ```
+
+2. **Install Dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Run JSON Server**
+
+   ```bash
+   npx json-server --watch db.json --port 10000
+   ```
+
+4. **Start React App**
+
+   ```bash
+   npm start
+   ```
+
+5. Open `http://localhost:3000` in your browser.
+
+---
+
+### 🔗 API Endpoints
+
+* `GET /users`
+* `GET /professionals`
+* `GET /customers`
+* `GET /admins`
+* `GET /bookings`
+
+> All served from: `http://localhost:10000/`
+
+---
+
+### 📸 Screenshots
+
+<img width="1885" height="806" alt="image" src="https://github.com/user-attachments/assets/d9a15a42-d631-4b19-8f1f-56c618be1cba" />
+
+---
+
+### 🧑‍💻 Author
+
+**Poosarla Durga Bhavani**
+[GitHub](https://github.com/DurgaBhavani25)
+
+---
+
+### 📃 License
+
+This project is licensed under the MIT License.
+
+---
+
